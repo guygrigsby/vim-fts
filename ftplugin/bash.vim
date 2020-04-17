@@ -1,2 +1,1 @@
-
-nnoremap <leader>r :! clear && bash % <CR>
+nnoremap <leader>r :! bash % <CR>
