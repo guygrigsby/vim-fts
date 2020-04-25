@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/9c285d3/
+<Leader>db	ftplugin/go.vim	/^nmap <Leader>db <Plug>(go-doc-browser-browser)$/;"	m
+<Leader>ds	ftplugin/go.vim	/^nmap <Leader>ds <Plug>(go-def-split)$/;"	m
+<Leader>dv	ftplugin/go.vim	/^nmap <Leader>dv <Plug>(go-def-vertical)$/;"	m
+<Leader>gd	ftplugin/go.vim	/^nmap <Leader>gd <Plug>(go-doc)$/;"	m
+<Leader>gg	ftplugin/go.vim	/^nmap <Leader>gg <Plug>(go-import)$/;"	m
+<Leader>md	ftplugin/markdown.vim	/^nmap <Leader>md <Plug>MarkdownPreviewToggle$/;"	m
+<Leader>md	ftplugin/md.vim	/^nmap <Leader>md <Plug>MarkdownPreviewToggle$/;"	m
+<Leader>s	ftplugin/go.vim	/^nmap <Leader>s <Plug>(go-implements)$/;"	m
+<leader>b	ftplugin/go.vim	/^nmap <leader>b :<C-u>call <SID>build_go_files()<CR>$/;"	m
+<leader>gl	ftplugin/go.vim	/^nmap <leader>gl <Plug>(go-metalinter)$/;"	m
+<leader>r	ftplugin/bash.vim	/^nnoremap <leader>r :! bash % <CR>$/;"	m
+<leader>r	ftplugin/go.vim	/^nmap <leader>r <Plug>(go-run)$/;"	m
+<leader>r	ftplugin/python.vim	/^nmap <leader>r :! clear && python % <CR>$/;"	m
+<leader>r	ftplugin/rust.vim	/^nnoremap <leader>r :RustRun <CR>$/;"	m
+<leader>r	ftplugin/sh.vim	/^nnoremap <leader>r :! clear && bash % <CR>$/;"	m
+<leader>r	ftplugin/vim.vim	/^nnoremap <leader>r :source % <CR>$/;"	m
+<leader>rt	ftplugin/go.vim	/^nmap <leader>rt <Plug>(go-run-split)$/;"	m
+<leader>t	ftplugin/go.vim	/^nmap <leader>t <Plug>(go-test)$/;"	m
+g:go_build_tags	ftplugin/go.vim	/^let g:go_build_tags = "integration,gostar,example,example"$/;"	v
+g:go_fmt_command	ftplugin/go.vim	/^let g:go_fmt_command ="goimports"$/;"	v
+g:go_term_enabled	ftplugin/go.vim	/^let g:go_term_enabled = 1$/;"	v
+g:go_term_mode	ftplugin/go.vim	/^let g:go_term_mode = "split"$/;"	v
+g:go_test_timeout	ftplugin/go.vim	/^let g:go_test_timeout = '600s'$/;"	v
+g:mkdp_auto_close	ftplugin/markdown.vim	/^let g:mkdp_auto_close = 1$/;"	v
+g:mkdp_auto_close	ftplugin/md.vim	/^let g:mkdp_auto_close = 1$/;"	v
+g:mkdp_auto_start	ftplugin/markdown.vim	/^let g:mkdp_auto_start = 0$/;"	v
+g:mkdp_auto_start	ftplugin/md.vim	/^let g:mkdp_auto_start = 0$/;"	v
+g:mkdp_browser	ftplugin/markdown.vim	/^let g:mkdp_browser = ''$/;"	v
+g:mkdp_browser	ftplugin/md.vim	/^let g:mkdp_browser = ''$/;"	v
+g:mkdp_browserfunc	ftplugin/markdown.vim	/^let g:mkdp_browserfunc = ''$/;"	v
+g:mkdp_browserfunc	ftplugin/md.vim	/^let g:mkdp_browserfunc = ''$/;"	v
+g:mkdp_command_for_global	ftplugin/markdown.vim	/^let g:mkdp_command_for_global = 0$/;"	v
+g:mkdp_command_for_global	ftplugin/md.vim	/^let g:mkdp_command_for_global = 0$/;"	v
+g:mkdp_echo_preview_url	ftplugin/markdown.vim	/^let g:mkdp_echo_preview_url = 0$/;"	v
+g:mkdp_echo_preview_url	ftplugin/md.vim	/^let g:mkdp_echo_preview_url = 0$/;"	v
+g:mkdp_highlight_css	ftplugin/markdown.vim	/^let g:mkdp_highlight_css = ''$/;"	v
+g:mkdp_highlight_css	ftplugin/md.vim	/^let g:mkdp_highlight_css = ''$/;"	v
+g:mkdp_markdown_css	ftplugin/markdown.vim	/^let g:mkdp_markdown_css = ''$/;"	v
+g:mkdp_markdown_css	ftplugin/md.vim	/^let g:mkdp_markdown_css = ''$/;"	v
+g:mkdp_open_ip	ftplugin/markdown.vim	/^let g:mkdp_open_ip = ''$/;"	v
+g:mkdp_open_ip	ftplugin/md.vim	/^let g:mkdp_open_ip = ''$/;"	v
+g:mkdp_open_to_the_world	ftplugin/markdown.vim	/^let g:mkdp_open_to_the_world = 0$/;"	v
+g:mkdp_open_to_the_world	ftplugin/md.vim	/^let g:mkdp_open_to_the_world = 0$/;"	v
+g:mkdp_page_title	ftplugin/markdown.vim	/^let g:mkdp_page_title = '「${name}」'$/;"	v
+g:mkdp_page_title	ftplugin/md.vim	/^let g:mkdp_page_title = '「${name}」'$/;"	v
+g:mkdp_port	ftplugin/markdown.vim	/^let g:mkdp_port = ''$/;"	v
+g:mkdp_port	ftplugin/md.vim	/^let g:mkdp_port = ''$/;"	v
+g:mkdp_preview_options	ftplugin/markdown.vim	/^let g:mkdp_preview_options = {$/;"	v
+g:mkdp_preview_options	ftplugin/md.vim	/^let g:mkdp_preview_options = {$/;"	v
+g:mkdp_refresh_slow	ftplugin/markdown.vim	/^let g:mkdp_refresh_slow = 0$/;"	v
+g:mkdp_refresh_slow	ftplugin/md.vim	/^let g:mkdp_refresh_slow = 0$/;"	v
+g:rustfmt_autosave	ftplugin/rust.vim	/^let g:rustfmt_autosave = 1$/;"	v
+g:terraform_fmt_on_save	ftplugin/terraform.vim	/^let g:terraform_fmt_on_save=1$/;"	v
+g:vim_json_conceal	ftplugin/json.vim	/^let g:vim_json_conceal = 0$/;"	v
+g:vim_json_warnings	ftplugin/json.vim	/^let g:vim_json_warnings = 1$/;"	v
+g:ycm_rust_src_path	ftplugin/rust.vim	/^let g:ycm_rust_src_path = $RUST_SRC_PATH$/;"	v
+s:build_go_files	ftplugin/go.vim	/^function! s:build_go_files()$/;"	f
+vim-fts	README.md	/^## vim-fts$/;"	s
