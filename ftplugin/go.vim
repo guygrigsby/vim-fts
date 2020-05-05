@@ -27,7 +27,8 @@ let g:go_term_mode = "split"
 let g:go_build_tags = "integration,example"
 " GoMetaLinter settings
 let g:go_metalinter_autosave = 1
-"let g:go_metalinter_command = "golangci-lint"
+let g:go_metalinter_command = "golangci-lint"
 let g:go_list_type = 'quickfix'
 let g:go_metalinter_enabled = ["govet", "golint", "wsl"]
+let g:go_metalinter_autosave_enabled = ["govet", "golint", "wsl"]
 " }}}
