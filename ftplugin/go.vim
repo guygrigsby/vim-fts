@@ -24,7 +24,7 @@ nmap <leader>b :<C-u>call <SID>build_go_files()<CR>
 let g:go_fmt_command ="goimports"
 let g:go_fmt_options = {
       \ 'gofmt': '-s',
-      \ 'goimports': '-local nytimes.com',
+      \ 'goimports': '-local github.com/nytimes',
       \ }
 let g:go_term_enabled = 0
 let g:go_term_mode = "split"
