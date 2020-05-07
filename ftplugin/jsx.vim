@@ -1,2 +1,2 @@
-au BufRead,BufWritePre * :normal gg=G``
+autocmd BufWritePre *.jsx :normal gg=G``
 setlocal formatprg=prettier
